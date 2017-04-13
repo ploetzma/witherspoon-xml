@@ -2,6 +2,17 @@
 <version>2.2</version>
 <enumerationTypes>
 <enumerationType>
+        <id>HACKATHON</id>
+                <enumerator>
+                <name>WIN</name>
+                <value>1</value>
+                </enumerator>
+                <enumerator>
+                <name>WEBEST</name>
+                <value>1</value>
+                </enumerator>
+</enumerationType>
+<enumerationType>
 	<id>ASSOCIATION_TYPE</id>
 		<enumerator>
 		<name>NA</name>
@@ -40787,6 +40798,10 @@
 	<child_id>dimm-thermal-sensor</child_id>
 	<hidden_child_id>dimm_temp_sensor</hidden_child_id>
 	<hidden_child_id>dimm_func_sensor</hidden_child_id>
+        <attribute>
+            <id>BILLS_MISSING_DIMM_ATTR_VAL</id>
+            <default></default>
+        </attribute>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
